@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+    margin-top: 20px;   
+}
+table{
+    height: 280px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    border-width: 5px;
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 4, 4);
+    height: 60px;
+    width: 60px;
+    box-shadow: 20px;
+    font-size: 21px;
+    border-radius: 50%;
+}
+
+.Operation{
+    background-color: aqua;
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+.calculator{
+    background-image: url('./calci.jpg');
+    height: 470px;
+    display: inline-block;
+    border-radius: 10px;    
+}
+
+#screen{
+    background-color: white;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 1cm;
+}
